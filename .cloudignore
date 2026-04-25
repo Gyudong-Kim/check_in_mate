@@ -1,0 +1,43 @@
+# Claude Code ignore patterns
+# Files and directories that Claude should not read or modify
+
+# Build artifacts
+build/
+.dart_tool/
+.pub-cache/
+
+# Generated files
+*.g.dart
+*.config.dart
+*.generated.dart
+
+# Dependencies
+.packages
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# Android/iOS native builds
+android/app/debug/
+android/app/profile/
+android/app/release/
+ios/Pods/
+ios/Flutter/Flutter.framework/
+
+# FVM
+.fvm/
+
+# Test coverage
+coverage/
+.nyc_output/
